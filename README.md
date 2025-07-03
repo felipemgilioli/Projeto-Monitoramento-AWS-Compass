@@ -76,7 +76,7 @@ Comando para criar o arquivo:
 
 Conteúdo do index.html:
 
-https://github.com/felipemgilioli/Projeto-Monitoramento-AWS/tree/92dc7ebaf6555bc127c1e0d49d0aa3250e367a10/html 
+https://github.com/felipemgilioli/Projeto-Monitoramento-AWS-Compass/blob/36bcc94504a8ef21bc3d565877b94c96d8d3497c/html/index.html 
 
 c. Como Funciona o Script de Monitoramento
 Para garantir a disponibilidade do site, um script em Bash foi desenvolvido para verificar o status do servidor e enviar alertas.
