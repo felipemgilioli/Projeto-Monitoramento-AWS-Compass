@@ -94,7 +94,7 @@ Envia Alerta: Se o código de status for diferente de 200, o script envia uma me
 
 2. Código do Script (monitor.sh)
 
-https://github.com/felipemgilioli/Projeto-Monitoramento-AWS/blob/d802138402a7d02c0590b01ceaba465891df2929/script/monitor.sh
+https://github.com/felipemgilioli/Projeto-Monitoramento-AWS-Compass/blob/30218298f731ad5d3677a4bd0cfbd23e77afed4f/script/monitor.sh
 
 3. Automação com Cron
 Para que o script rode automaticamente a cada minuto, uma tarefa cron foi configurada.
