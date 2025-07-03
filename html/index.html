@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor Web Local - Projeto de Monitoramento</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background-color: #171C3A;
+            color: #222;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo-text {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .hero {
+            background-color: #410a8f;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            margin: 0 0 15px;
+            font-size: 32px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h2 {
+                font-size: 24px;
+            }
+
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-text">PB - JUN 2025</div>
+        <h1>Projeto de Monitoramento - Nginx + Linux</h1>
+    </header>
+
+    <div class="hero">
+        <h2>Servidor Web Local</h2>
+        <p>Este projeto simula um ambiente de monitoramento com automação em Shell Script e servidor Nginx.</p>
+    </div>
+
+    <div class="content">
+        <div class="card">
+            <h3>Objetivo do Projeto</h3>
+            <p>O objetivo deste projeto é testar e demonstrar habilidades em Linux, automação com Shell Script, monitoramento e implantação de um servidor web local (Nginx) em uma VM Ubuntu na AWS.</p>
+        </div>
+
+        <div class="card">
+            <h3>Recursos Utilizados</h3>
+            <ul>
+                <li>Instância EC2 com Ubuntu Server</li>
+                <li>Servidor Nginx</li>
+                <li>Scripts Bash para monitoramento</li>
+                <li>Webhook para alertas (Discord)</li>
+                <li>Crontab para agendamento</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Status Atual</h3>
+            <p>Servidor rodando corretamente. Última verificação: <strong><span id="verificacao">--:--</span></strong></p>
+            <script>
+                // Simulação: preencher com horário atual
+                document.getElementById('verificacao').innerText = new Date().toLocaleTimeString();
+            </script>
+        </div>
+    </div>
+
+    <footer>
+        Desenvolvido por Felipe Gilioli • Projeto Acadêmico AWS + Nginx • 2025
+    </footer>
+</body>
+</html>
